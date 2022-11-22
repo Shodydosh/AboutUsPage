@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    /* background-color: #FFFFFA; */
+}
+
+/*! NAV */
+
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav .nav-bar{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #252525 ;
+}
+
+#nav .nav-bar .name a{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li{
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links .reg {
+    color: black;
+    font-weight: 500;
+    background-color: #ECEC7E;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/*! BODY */
+
+
+
+.content {
+    margin-top: 200px;
+    padding: 50px;
+    width: 100%;
+}
+
+
+/*! TITLE */
+
+.title-section{
+    width: 100%;
+    margin-bottom: 50px
+}
+
+.small-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/*! CARDS */
+
+.card-container {
+    width: 100%;
+    display: flex;
+}
+
+.card1 {
+    width: 40%;
+
+}
+
+.card1 , .card2 {
+    margin: 10px;
+}
+.card1 img, .card2 img  {
+    width: 400px;
+}
+
+.card1-name, .card2-name {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.card1-name{
+    display: flex;
+}
+
+.card1-arrow {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.card1-role, .card2-role {
+    font-weight: 100;
+    font-size: 12px;
+}
