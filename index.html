@@ -4,89 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
 <body>
-    <div class="navContainer">
-        <div id="nav">
-            <div class="nav-bar">
-                <div class="menu">
-                    <ul class="nav-links">
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Design</a></li>
-                        <li><a href="#">Learn</a></li>
+    <div>
+        <div style="position:fixed;top:0;left:0;height:80px;width:100%">
+            <div style="
+            position: relative;
+            height: 100%;
+            width: 100%;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 0.5px solid #252525 ;"
+            >
+                <div>
+                    <ul style="display: flex; align-items: center;">
+                        <li style="margin: 0 5px; list-style: none;">
+                            <a href="" style="text-decoration: none; cursor: pointer; background-color: #ECEC7E; border: 1px solid #252525; color: #252525; padding: 5px 15px; margin-right: 10px;" href="#">Back to home</a>
+                        </li>
+                        <li style="margin: 0 5px; list-style: none; ">
+                            <a style="position: relative; font-size: 15px; font-weight: 400; color: black; text-decoration: none; padding: 10px;" href="#">Shop</a></li>
+                            <li style="margin: 0 5px; list-style: none; ">
+                                <a style="position: relative; font-size: 15px; font-weight: 400; color: black; text-decoration: none; padding: 10px;" href="#">Design</a></li>
+                        <li style="margin: 0 5px; list-style: none; ">
+                            <a style="position: relative; font-size: 15px; font-weight: 400; color: black; text-decoration: none; padding: 10px;" href="#">Learn</a></li>
                     </ul>
                 </div>
 
-                <span class="name">
-                    <a href="" class="name-logo"></a>
-                    <a href="#">Packhelp</a>
+                <span>
+                    <a href="" style="font-size: 30px; font-weight: 500; color: black; text-decoration: none;"></a>
+                    <a href="#" style="font-size: 30px; font-weight: 500; color: black; text-decoration: none;">Packhelp</a>
                 </span>
     
-                <div class="menu">
-                    <ul class="nav-links">
-                        <li><a href="#">Sign in</a></li>
-                        <li><button class="nav-menu" href="#">Menu</button></li>
-                        <li class="nav-icon"></li>
+                <div>
+                    <ul style="display: flex; align-items: center;">
+                        <li style="margin: 0 5px; list-style: none; ">
+                            <a style="position: relative; font-size: 15px; font-weight: 400; color: black; text-decoration: none; padding: 10px;" href="#">Sign in</a></li>
+                        <li style="margin: 0 5px; list-style: none;">
+                            <button style="cursor: pointer; background-color: #fff; border: 1px solid #252525; padding: 5px 15px; margin-right: 10px;" href="#">Menu</button>
+                        </li>
+                        
+
+                        <li style=" margin-right: 50px; margin-left: 10px; cursor: pointer;  list-style: none;  margin: 0 5px;">
+                            <i style="margin-right: 50px; margin-left: 10px; cursor: pointer;" class='fa fa-shopping-cart' style='color: black'></i>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="content">
-        <div class="title-section">
-            <div class="small-title">
+    <div style="
+        margin-top: 100px;
+        padding: 50px;
+        width: 100%;"
+    >
+        <div style="width: 100%; margin-bottom: 50px" >
+            <div style="font-size: 18px; font-weight: 500;">
                 LEADERSHIP
             </div>
-            <div class="main-title">
+            <div style="font-size: 35px; font-weight: 700;">
                 To be the company our customers want us to be, it takes a group of enthusiastic leaders with hands-on experience...
             </div>
         </div>
 
-        <div class="card-container">
-            <div class="card1">
-                <img class="card1-img" src="https://static.vecteezy.com/packs/media/vectors/term-bg-1-666de2d9.jpg" alt="">
-                <div class="card1-description">
-                    <div class="card1-name">
-                        <div class="personName">
-                            Wojtek Sadowski
-                        </div>
-                        <a class="card1-arrow">
-                        -->
-                        </a>
+        <div style="width: 100%; display: flex;">
+            <div style="width: 40%; margin: 10px;">
+                <img style="width: 500px;" src="1.png" alt="">
+                <div>
+                    <div style="font-weight: 700; font-size: 15px;">
+                        Nguyễn Bá Long 
                     </div>
-                    <div class="card1-role">
-                        CEO and Co-Founder
+                    <div style="font-weight: 100; font-size: 12px;">
+                        B19DCQT093
                     </div>
                 </div>
             </div>
 
-            <div class="card2">
-                <img class="card2-img" src="https://static.vecteezy.com/packs/media/vectors/term-bg-1-666de2d9.jpg" alt="">
-                <div class="card2-description">
-                    <div class="card2-name">
-                        Wojtek Sadowski
+            <div style="margin: 10px;">
+                <img style="width: 500px;" src="2.png" alt="">
+                <div>
+                    <div style="font-weight: 700; font-size: 15px;">
+                        Phùng Nhật Quang
                     </div>
-                    <div class="card2-role">
-                        CEO and Co-Founder
+                    <div style="font-weight: 100; font-size: 12px;">
+                        B19DCQT135
                     </div>
                 </div>
             </div>
-            <div class="card2">
-                <img class="card2-img" src="https://static.vecteezy.com/packs/media/vectors/term-bg-1-666de2d9.jpg" alt="">
-                <div class="card2-description">
-                    <div class="card2-name">
-                        Wojtek Sadowski
+            <div style="margin: 10px;">
+                <img style="width: 500px;" src="3.png" alt="">
+                <div>
+                    <div style="font-weight: 700; font-size: 15px;">
+                        Nguyễn Như Quỳnh
                     </div>
-                    <div class="card2-role">
-                        CEO and Co-Founder
+                    <div style="font-weight: 100; font-size: 12px;">
+                        B19DCQT139
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 </html>
